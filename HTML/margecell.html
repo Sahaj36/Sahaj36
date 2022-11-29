@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        to join a row used rowspan attibute
+        to join a column used colspan attibute
+
+        both attribute used in <td> or <th> tag.
+
+         wem used rowspan remove 1 column from next row.
+         whhen used colspan remove 1 column in that perticular row.   
+    -->
+    <table border="1" style="height: 150px; width: 350px;" rules="all">
+        <tr>
+            <td rowspan="2"></td>
+            <th colspan="2">Avarage</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <th>Higth</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <th>Male</th> 
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Female</th>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+</body>
+</html>
