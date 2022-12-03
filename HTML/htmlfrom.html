@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- use to create HTML froms -->
+    <!-- name - > from name 
+    remember that do not allow space betway in from name 
+    (myFrom, my_from)
+    
+    action -> give the page name which you want open after click on button.
+
+    method -> get , post
+    get => it show from information in URL.
+           there are limit to display information in URL.
+
+           post => send whole current page data to the next page.
+           wrap your data and send to the next page
+-->
+    <form action="" name="" method="">
+    <!-- input tag ->
+         types-> text,radio,checkbox,submit,button,reset,date..... -->
+
+         <label for="">First Name : <span style="color: red">*</span></label>
+        <input type="text" id="fname" placeholder="Enter your name" required/><br/></br>
+        
+        <label for="">Password :</label>
+        <input type="password" placeholder=" Enter password"/> <br/></br>
+
+        <!-- single option selection multiple option --> 
+
+        <label for="">Gender :</label>
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female<br/></br>
+
+        <!-- checkbox used for select multiple option from given option -->
+
+        <label for="">Subject selection :</label>
+        <input type="checkbox" name="s1" id=""/>HTML
+        <input type="checkbox" name="s2" id=""/>CSS
+        <input type="checkbox" name="s3" id=""/>JavaScript<br/></br>
+
+        <!-- dropdown list <select> and <option> -->
+
+            <label for="">City :</label>
+            <select name="City" id="">
+             <option value="">---Select---</option>
+             <option value="">Surat</option>
+             <option value="">Baroda</option>
+            </select><br/></br>
+
+            <!-- input type list -->
+
+            <label for="">Date of Joinning</label>
+            <input type="date" name="" id=""/><br/></br>
+
+            <!-- input type chhoose file -->
+
+            <label for="">Upload a file :</label>
+            <input type="file" name="" id=""/><br/></br>
+
+            <!-- input type email -->
+
+            <label for="">Email :</label>
+            <input type="email" name="" id=""/><br/></br>
+
+            <!-- input type datetime-->
+
+            <label for="">DateTime :</label>
+            <input type="datetime" name="" id=""/><br/></br> 
+
+            <!-- input type datetime local -->
+
+            <label for="">DateTime Local :</label>
+            <input type="datetime-local" name="" id=""/><br/></br>
+
+            <!-- input type range update in html5 -->
+
+            <label for="">Range :</label>
+            <input type="range" name="" id=""/><br/></br>
+             
+            <!-- input type month update in html5 -->
+
+            <label for="">month :</label>
+            <input type="month" name="" id=""/><br/></br>
+
+            <!-- input type time update in html5 -->
+
+             <label for="">Time :</label>
+             <input type="time" name="" id=""/><br/></br>
+
+            <!-- input type week update in html5 -->
+            <label for="">Week :</label>
+            <input type="week" name="" id=""/><br/></br>
+
+            <label for="">Color :</label>
+            <input type="color" name="" id=""/><br/></br>
+
+            <label for="">Number :</label>
+            <input type="number" name="" id=""/><br/></br>
+
+            <input type="submit" name="" value="Submit"/>
+            <input type="reset" name="" value="Clear"/>
+            <input type="button" name="" value="Button"/>
+
+            <button>Button Tag</button>
+            <button type="submit">Submit</button>
+            <button type="menu">Menu</button>
+
+    </form>
+</body>
+</html>
