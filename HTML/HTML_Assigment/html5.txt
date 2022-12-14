@@ -1,0 +1,41 @@
+MODULE: 3 (HTML 5)
+
+1. What are the new tags added in HTML5?
+Ans. (MOVED) article,(MOVED) aside,audio,canvas,command,datalist
+details,embed,figcaption,figure,footer,header,hgroup,keygen,mark
+math,meter,nav,output,progress,rp,rt,ruby,section,source,summary
+svg,time,track,video,wbr.
+
+2. How to embed audio and video in a webpage? 
+Ans. HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. It is a 
+combination of Hypertext and Markup language. HTML uses predefined tags and elements that tell the browser how to 
+properly display the content on the screen. So, in this article, we will learn how to embed audio and video in HTML. 
+In order to insert multimedia files on web pages, we already know how to insert images in HTML. 
+
+3. Semantic element in HTML5? 
+Ans. Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+
+In HTML there are some semantic elements that can be used to define different parts of a web page:  
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+
+4. Canvas and SVG tags 
+Ans. The HTML <canvas> element is used to draw graphics, on the fly, via JavaScript.
+The <canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+Canvas has several methods for drawing paths, boxes, circles, text, and adding images.
+
+SVG stands for Scalable Vector Graphics
+SVG is used to define graphics for the Web
+SVG is a W3C recommendation
