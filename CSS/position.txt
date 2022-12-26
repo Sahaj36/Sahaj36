@@ -1,0 +1,13 @@
+position idicate how your element positioning in the browser.
+
+position -> 5 values
+
+static -> which is a default. 
+fixed -> for fixed a content on browser.
+sticky -> stick some position.
+relative ( parent ) ->
+absolute ( child ) ->
+
+this 4 property used with position -> left,right,top,buttom,
+
+z-index -> work as priority
