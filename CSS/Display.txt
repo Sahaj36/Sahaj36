@@ -1,0 +1,27 @@
+display property used to how to content display in your browser.
+
+display ->
+
+inline 
+inline-block
+block
+flex
+grid
+flexbox -> div work like flexible with its value
+
+display : flex ->
+(1) flex ( flex-basic, flex-grow, flex-shrink )
+(2) justify-content
+(3) align-items
+(4) flex-direction
+(5) flex-warp
+(6) gap
+
+display:grid; ->
+(1) grid:
+(2) grid-template-columns
+(3) grid-template-row
+(4) gap -> combined of row and columns
+(5) column-gap
+(6) row-gap
+(7) justify-items

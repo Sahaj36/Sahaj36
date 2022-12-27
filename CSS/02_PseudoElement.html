@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            margin: 20px auto;
+            padding: 40px;
+        }
+        div::before{
+            content: "Hello";
+        }
+        div::after{
+            content: "?";
+        }
+        div::first-letter{
+            font-size: 40px
+        }
+        div::first-line{
+            color: red;
+        }
+        li::marker{
+            color: blue;
+        }
+        div::selection{
+            color: aquamarine;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam minus doloremque fugit consectetur eaque nam cum nemo, fugiat sunt quam atque maiores molestias modi voluptatibus blanditiis labore officia repellendus nobis.
+    </div>
+    <ul>
+        <li>SPARTAN</li>
+        <li>109</li>
+    </ul>
+</body>
+</html>
