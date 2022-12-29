@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image1 {
+            height: 300px;
+            width: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+        .img1 {
+            height: 300px;
+            width: 300px;
+        }
+        .text {
+            position: absolute;
+            color: skyblue;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.672);
+            transition: 0.5s ease all;
+            transform: scale(0);
+        }
+        .image1:hover .text {
+            transform: scale(1) rotate(360deg);
+        }
+        .sub-text{
+            transition: 0.5s ease all;
+            transition-delay: 2s;
+            transform: scale(0);
+        }
+        .image1:hover .sub-text {
+        transform: scale(1) rotate(360deg);
+      }
+    </style>
+</head>
+<body>
+    <div class="image1">
+        <img src="../../images/Spartan.jpg" alt="" class="img1">
+        <div class="text">
+            <div class="sub-text">
+                <h1>SPARTAN</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

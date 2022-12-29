@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image1 {
+            height: 400px;
+            width: 400px; 
+            position: relative;
+            overflow: hidden;
+        }
+        .img1{
+            height: 400px;
+            width: 400px;
+        }
+        .text {
+            position: absolute;
+            color: white;
+            width: 100%;
+            height: 0;
+            /* top: 0; */
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: 1s all ease;
+        }
+        .image1:hover .text {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="image1">
+        <img src="../../images/Spartan.jpg" alt="" class="img1">
+        <div class="text">
+            <h1>SPARTAN</h1>
+        </div>
+    </div>
+</body>
+</html>
