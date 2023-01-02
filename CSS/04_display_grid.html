@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            padding: 50px 100px;
+            display: grid;
+            /* grid-template-columns: auto auto auto auto auto; */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; -> fraction */
+            grid-template-columns: repeat(5,1fr);
+            /* column-gap: 30px; */
+            /* row-gap: 40px; */
+            gap: 50px;
+            justify-items: center;
+            align-content: center;
+             }
+        .sub {
+            height: 100px;
+            width: 100px;
+            background-color: skyblue;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="sub">1</div>
+        <div class="sub">2</div>
+        <div class="sub">3</div>
+        <div class="sub">4</div>
+        <div class="sub">5</div>
+        <div class="sub">6</div>
+        <div class="sub">7</div>
+        <div class="sub">8</div>
+        <div class="sub">9</div>
+        <div class="sub">10</div>
+    </div>
+</body>
+</html>
