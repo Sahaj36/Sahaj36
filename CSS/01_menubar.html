@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .header {
+            background-color: skyblue;
+        }
+        .container {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .header-nav {
+            display: flex;
+        }
+        /* parent child */
+        .header-nav .left-logo {
+            padding: 40px;
+            flex: 1;
+        }
+        .header-nav .left-logo a {
+            font-size: 30px;
+        }
+        .header-nav .left-logo span {
+            color: blue;
+        }
+        .header-nav .right-menu {
+            flex: 2;
+            padding: 38px;
+        }
+        .header-nav .right-menu ul {
+            /* background-color: chocolate; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header-nav .right-menu li {
+            padding: 5px;
+        }
+        .header-nav .right-menu button {
+            height: 40px;
+            width: 140px;
+            border: 2px solid deeppink;
+            background: transparent;
+            font-weight: 600;
+            color: deeppink;
+            border-radius: 10px
+        }
+        .header-nav .right-menu button:hover {
+            background-color: deeppink;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="header-nav">
+                <div class="left-logo"><a href="">
+                    <span class="fa-solid fa-handshake-simple"></span>Masterwork</a>
+                </div>
+                <div class="right-menu">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Page <span class="fa-solid fa-angle-down"></span></a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><button>schedule a demo</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
