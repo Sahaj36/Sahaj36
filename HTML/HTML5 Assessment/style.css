@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+height: 660px;
+width: 100%;
+}
+.pulse .back-pos {
+    background-image: url(img/laptop3.jpg);
+    background-size: cover; 
+    background-position: cover;
+    padding: 55px;
+    height: 655px;
+    width: 100%;
+}
+.pulse .pulse-p {
+    padding: 20px;
+}
+.pulse .pulse-f {
+    display: flex; 
+}
+.pulse .pulse-f .pulse-content-left {
+    background-color: rgba(0, 0, 0, 0.511);
+    color: white;
+    margin: 35px;
+    transform: translate(-110px,-110px);
+}
+.pulse .pulse-f .pulse-content-left h1 {
+    border: 1px solid white;
+    padding: 15px 35px;
+    margin: 80px;
+    outline: 1px solid white;
+    outline-offset: 5px;
+    
+}
+.pulse .pulse-f .pulse-content-left ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.pulse .pulse-f .pulse-content-left ul a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.pulse .pulse-f .pulse-content-left .icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 70px;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.pulse .pulse-f .pulse-content-left p {
+    text-align: center;
+    padding-top: 10px;
+}
+.pulse .pulse-f .pulse-content-right {
+    border: 1px solid #ffffff30;
+    background-color: #ffffff5e;
+    height: 300px;
+    width: 380px;
+    text-align: inherit;
+    padding: 30px;
+    transform: translate(450px, 135px)
+}
+.pulse .pulse-f .pulse-content-right h3 {
+    color: #0b858b;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.pulse .pulse-f .pulse-content-right p {
+    padding-bottom: 15px;
+}
+/* =============================== About Us ==========================================*/
+.about-us .about-f {
+    display: flex;
+}
+.about-us .about-f .about-content-left {
+    display: flex;
+}
+.about-us .about-f .about-content-left .back-col {
+    background-color: gray;
+    color: gray;
+    height: 800px;
+    width: 955px;
+}
+.about-us .about-content-right {
+    display: flex;
+}
+.about-us .about-content-right .about {
+    padding: 30px;
+}
+.about-us .about-content-right .about span {
+    font-size: 70px;
+    color: #0b858b;
+    padding-bottom: 30px;
+}
+.about-us .about-content-right .about h3 {
+    padding-bottom: 30px;
+    color: #0b858b;
+}
+.about-us .about-content-right .about p {
+    padding-bottom: 30px;
+    color: gray;
+}
+.about-us .about-content-right .company {
+    padding: 30px;
+}
+.about-us .about-content-right .company span {
+    font-size: 70px;
+    color: #0b858b;
+    padding-bottom: 30px;
+}
+.about-us .about-content-right .company h3 {
+    padding-bottom: 30px;
+    color: #0b858b;
+}
+.about-us .about-content-right .company p {
+    padding-bottom: 30px;
+    color: gray;
+}
+/* ============================== Our Work =================================== */
+.our-work .our-work-right {
+    padding: 25px;
+    border: 1px solid #80808059;
+    outline: 1px solid #80808059;
+    outline-offset: 5px;
+    height: 320px;
+    width: 760px;
+    transform: translate(455px, -338px);
+}
+.our-work .our-work-right h3 {
+    padding-bottom: 15px;
+    color: #0b858b;
+}
+.our-work .our-work-right img {
+    height: 230px;
+    width: 174px;
+}
+.our-work .our-work-right .icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.our-work .our-work-right span {
+    font-size: 9px;
+    padding-top: 4px;
+    color: #808080ad;
+}
+/* /* ================================ Our Clients ================================= */
+.our-clients .our-clients-left .back-col {
+    background: gray;
+    color: gray;
+    height: 900px;
+    width: 323px;
+    transform: translate(0px, -320px);
+}
+.our-clients .our-clients-right {
+    transform: translate(452px, -1170px);
+    width: 883px;
+}
+.our-clients .our-clients-right h3 {
+    color: #0b858b;
+    padding-bottom: 20px;
+}
+.our-clients .our-clients-right p {
+    color: #808080ad;
+    width: 675px;
+}
+.our-clients .our-clients-right img {
+    transform: translate(-66px, 10px);
+    width: 870px;
+    height: 255px;
+} 
+.our-clients .our-clients-right .talk-us {
+    border: 1px solid #808080ad;
+    outline: 1px solid #808080ad;
+    outline-offset: 5px;
+    height: 270px;
+    width: 400px;
+    padding: 30px;
+    transform: translate(-33px, 118px);
+}
+.our-clients .our-clients-right .talk-us h3 {
+    color: #0b858b;
+    padding-bottom: 20px;
+}
+.our-clients .our-clients-right .talk-us p {
+    color: #808080ad;
+    padding-bottom: 20px;
+    width: 350px;
+}
+.our-clients .our-clients-right .form {
+    padding-top: 20px;
+    transform: translate(520px, -137px);
+    width: -18px;
+    width: 300px;
+}
+.our-clients .our-clients-right .form p {
+    background-color: #fffbfb00;
+    width: 251px;
+    height: 25px;
+    box-shadow: 1px 1px 3px 0px #000000a6;
+}
+.our-clients .our-clients-right .form h4 {
+    background-color: #fffbfb00;
+    color: #808080ad;
+    width: 251px;
+    height: 80px;
+    box-shadow: 1px 1px 3px 0px #000000a6;
+    font-weight: 500;
+}
+.our-clients .our-clients-right .form h5 {
+    background-color: #fffbfb00;
+    color: #808080ad;
+    padding: 5px;
+    width: 45px;
+    height: 25px;
+    box-shadow: 1px 1px 3px 0px #000000a6;
+    transform: translate(206px, 5px);
+}
