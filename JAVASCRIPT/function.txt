@@ -1,0 +1,25 @@
+ fumction are 2 type ->
+
+ (1) predefine ->
+ it is included in our program
+ write(), log(), writeln()
+
+ method -> 
+ getElementById()
+
+ (2) user define ->
+ which is created by user.
+
+ syntax :
+ function function_name(){
+    statements :
+ }
+
+ what is event ?
+ -> such task which is performed by user.
+
+ what is event handler ?
+ -> who's handle event.
+
+ in JS, there is 4 type of event ->
+ (1) mouse (2) keybord (3) from (4) window
