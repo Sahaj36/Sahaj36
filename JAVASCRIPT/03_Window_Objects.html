@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // shows only msg
+        function alert_popup() {
+            alert("HELLO USER")
+        }
+
+        function confirm_popup(){
+            if(confirm("Are you sure?") == true){
+                // alert("OK")
+                document.body.style.backgroundColor = "cornflowerblue";
+            } else {
+                // alert("CANCEL")
+                document.body.style.backgroundColor = "crimson";
+            }
+        }
+
+        // take confirmation from user 
+        function prompt_popup(){
+            var user = prompt("Enter Your Name");
+            if(user == ""){
+                alert("Enter Username");
+            }else{
+                document.getElementById("head").innerHTML = User;
+                return false;
+            }
+        }
+
+        function open_url() {
+                window.open("https://www.youtube.com/");
+        }
+
+        function close_url() {
+            var close_u = "https://www.youtube.com/";
+            window.close();
+        }
+
+        function his_for() {
+            window.history.forward();
+        }
+    </script>
+</head>
+<body>
+    <button id="" onclick="alert_popup()">Alert</button>
+    <button id="" onclick="confirm_popup()">Confirm</button>
+    <button id="" onclick="prompt_popup()">Prompt</button>
+    <button onclick="open_url()">Open</button>
+    <button onclick="close_url()">Close</button>
+
+    
+    <button onclick="his_for()">Forward</button>
+
+    <h1 id="head"></h1>
+</body>
+</html>
