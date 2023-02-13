@@ -1,0 +1,45 @@
+=> jquery is javascript library.
+which is provide you in built functions.
+
+websiet -> jquery.com
+
+version => 3.6.3
+
+cdn =>  
+online  -> copy cdn from cdnjs.com, jquery.com, microsoft and google
+offline -> package download.
+
+syntax :
+
+$(document).ready(function(){
+    $("selector").event(function(){
+        $("task_handler").jquery_function();
+    })
+})
+
+selector => element, class, id
+
+functions list =
+(1) display function                => hide(), show(), toggle()
+(2) fade function                   => fadeIn(), fadeOut(), fadeToggle(), fadeTo()
+(3) slide function                  => slideUp(), slideDown(), slideToggle()
+(4) Animation function              => animate()
+(5) css function                    => css()
+(6) add function                    => append(), prepand(), before(), after()
+(7) remove function                 => remove(), empty()
+(8) css class function              => addClass(), removeClass(), ToggleClass()
+(9) dimension function              => height(), width(), innerHeigth(), innerWidth(),
+                                       outerHeight(), outerWidth()
+(10) stop function                  => stop()
+(11) set and get attribute function => text(), html(), val()
+(12) traversing
+(13) ancestor function              => parent(), parents(), parentUntill()
+(14) descendent function            => children(), find()
+(15) sibling function               => sibling(), next(), nextAll(), nextUntill()
+                                       prevAll(), prevUntill()
+(16) filter function                => filter(), first(), last(), eq(), not()
+(17) Ajax                           => load()
+(18) bxslider
+(19) owl-carousel 
+
+=> sizzler.js which is included in jquery. it is css selector engine.
