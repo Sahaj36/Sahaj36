@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="counters"></div>
+
+    <script>
+        // setInterval is a function to / set timing / count value
+        var count = setInterval(check_num, /*100 for speed*/ );
+        var start_num = 0;
+
+        function check_num(){
+            let num = document.getElementById("counters");
+            num.innerHTML = ++start_num;
+            if (start_num == 1000) {
+                // clearInterval -> stop counting value
+                clearInterval(count);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 90px;
+            width: 100px;
+        }
+        .love-mode {
+            background-color: black;
+            color: white;
+        }
+        a {
+            color: black;
+        }
+        .love-mode a {
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <img src="images/heart.png" alt="" id="icon"/>
+
+    <h1>HEY LOVE</h1>
+    <a href="">Go to Next Page</a>
+
+    <script>
+        let icon = document.getElementById("icon");
+
+        icon.addEventListener("click" , function() {
+            document.body.classList.toggle("love-mode")
+
+            if(document.body.classList.contains("love-mode") == true) {
+                icon.src = "images/broken-heart.png";
+            } else {
+                icon.src ="images/heart.png";
+            }
+        })
+    </script>
+</body>
+</html>

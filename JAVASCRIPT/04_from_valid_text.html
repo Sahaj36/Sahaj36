@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+    <script>
+        // isNaN() -> not a number
+        function check_name() {
+            let fname = document.getElementById("fname").value;
+
+            // test() => reg_ex_test(string_value)
+            // match() => string_value.match(reg_ex)
+
+            if (fname == "" || fname == null) {
+                // alert("enter name");
+                document.getElementById("msg").innerHTML = "Enter name";
+                return false;
+            }
+        }
+        function check_name_valid(){
+            let fname = document.getElementById("fname").value;
+            let reg_ex_name = /^[a-zA-z]*$/;
+             if (reg_ex_name.test(fname)) {
+                document.getElementById("msg").innerHTML = "";
+                return false;
+            } else {
+                document.getElementById("msg").innerHTML = "Digit not allwod";
+                return false;
+            }
+        }
+        // else if(!isNaN(fname)) {
+        //         document.getElementById("msg").innerHTML = "Digits not allowed";
+        //         return false;
+        //     }
+    </script>
+</head>
+<body>
+    <form action="" name="form1">
+        <label>First Name :</label>
+    <input type="text" name="" id="fname" onkeyup="return check_name_valid()">
+    <span id="msg"></span>
+
+    <br/><br/>
+    <button onclick="return check_name()">Click here</button>
+    </form>
+</body>
+</html>
