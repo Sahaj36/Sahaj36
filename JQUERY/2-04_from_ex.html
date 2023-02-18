@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("form").toggle(2000);
+            });
+            $("#btn2").click(function(){
+                $("form").fadeToggle(2000);
+            });
+            $("#btn3").click(function(){
+                $("form").slideToggle(2000);
+            });
+        });
+    </script>
+</head>
+<body bgcolor="sky blue">
+    <button id="btn1">Toggle</button>
+    <button id="btn2">FadeToggle</button>
+    <button id="btn3">SlideToggle</button>
+    <form id="form">
+    <fieldset>
+           <legend align="center"><h1>Registration Details</h1></legend>
+    <table border="0" align="center">
+        <tr>
+            <td style="padding: 10px 0px 10px 85px;"><label for="">University :</label></td>
+            <td><input style="width: 350px;" type="text" name="" id=""></td>
+            <tr>
+            <td style="padding: 10px 0px 10px 100px;"><label for=""> Institute :</label></td>
+            <td><input style="width: 350px;" type="text" name="" id=""></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px 0px 10px 105px;"><label for=""> Branch :</label></td>
+            <td><select style="width: 200px;" name="Branch" id="">
+                <option value="">---Select---</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px 0px 10px 105px;"><label for=""> Degree :</label></td>
+            <td><select style="width: 200px;" name="" id="">
+                <option value="">---Select---</option>
+            </select>
+            <input type="radio" name="" id=""/> Pursuing
+            <input type="radio" name="" id=""/> Completed
+        </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px 0px 10px 69px;"><label for=""> Avarage CPI :</label></td>
+            <td><input style="width: 250px;" type="text" name="" id=""> Upto <input style="width: 250px;"  type="text" name="" id=""> TH Semester</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px 0px 10px 79px;"><label for=""> Experiance :</label></td>
+            <td><input style="width: 250px;" type="text" name="" id=""> Years</td>
+        </tr>
+            <td style="padding: 10px 10px 10px 9px;"><label for=""> Your Website Or Blog :</label></td>
+            <td><input style="width: 300px;" type="text" name="" placeholder="https://www.google.com" ></td>
+        </tr>
+            <td></td>
+            <td style="padding: 30px 0px 30px 200px;"><button style=" height: 40px; width: 110px; background-color:aqua; color: rgb(0, 0, 0);">Register</button></td>
+    </table>
+</fieldset>
+</form>
+</body>
+</html>
