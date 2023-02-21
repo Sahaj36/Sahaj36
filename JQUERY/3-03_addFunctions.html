@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script>
+        $(Document).ready(function(){
+            $("#btn1").click(function(){
+                $("h1").append("!!!!");
+            });
+
+            $("#btn2").click(function(){
+                $("h1").prepend("!!!!");
+            });
+
+            $("#btn3").click(function(){
+                $("span").before("!!!!");
+            });
+
+            $("#btn4").click(function(){
+                $("span").after("!!!!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- 
+        add functions are : append(), prepand(), before(), after()
+     -->
+     <!-- 
+        before and after used with only inline elements
+      -->
+
+     <button id="btn1">Append()</button>
+     <button id="btn2">Prepand()</button>
+     <button id="btn3">Before()</button>
+     <button id="btn4">After()</button>
+     
+     <hr/>
+     <h1>SPARTAN</h1>
+
+     <span>SPARTAN</span>
+</body>
+</html>
