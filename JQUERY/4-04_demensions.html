@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+           $txt = "";
+           $txt = "Height : " + $(".div1").height() + "<br>" 
+           + "Width : " + $(".div1").width() 
+           + " <br> InnerHeight : " + $(".div1").innerHeight()
+           + " <br> InnerWidth : " + $(".div1").innerWidth()
+           + " <br> OuterHeight : " + $(".div1").OuterHeight()
+           + " <br> OuterWidth : " + $(".div1").OuterWidth()
+           + " <br> OuterHeight(margin) : " + $(".div1").OuterHeight(true)
+           + " <br> OuterWidth(margin) : " + $(".div1").OuterWidth(true);
+
+           $(".div1").html($txt);
+        })
+    </script>
+    <style>
+        .div1 {
+            height: 300px;
+            width: 300px;
+            border: 5px solid black;
+            padding: 20px;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+</body>
+</html>

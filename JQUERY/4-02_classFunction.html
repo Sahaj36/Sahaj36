@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <style>
+        .head1{
+             color: crimson;
+             font-size: 50px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("h1").addClass("head1")
+            })
+
+            $("#btn2").click(function(){
+                $("h1").removeClass("head1")
+            })
+
+            $("#btn3").click(function(){
+                $("h1").toggleClass("head1")
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="btn1">AddClass</button>
+    <button id="btn2">RemoveClass</button>
+    <button id="btn3">ToggleClass</button>
+    <hr>
+    <h1>SPARTAN</h1>
+</body>
+</html>

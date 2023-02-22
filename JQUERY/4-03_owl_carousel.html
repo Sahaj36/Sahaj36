@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <!-- owl carousel js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <!-- owl carousel css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        body {
+            background-color: black;
+        }
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        992:{
+            items:4
+        },
+        1200:{
+            items:5
+        },
+    }
+})
+        })
+    </script>
+</head>
+<body>
+    <div class="owl-theme owl-carousel">
+        <div class="img">
+            <img src="images/img1.jpg" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img2.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img3.png" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img4.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img5.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img6.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img7.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img8.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img9.jfif" alt="">
+        </div>
+        <div class="img">
+            <img src="images/img10.jfif" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- more link -->
+<!-- https://swiperjs.com/ -->
+<!-- https://kenwheeler.github.io/slick/ -->
