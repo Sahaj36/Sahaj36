@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <style>
+        div, h1, ul, li {
+            border: 2px solid black;
+            padding: 10px;
+            margin: 2px;
+        }
+        .addVal{
+            border: 2px solid red;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                // $(".sub-1").siblings().addClass("addVal");
+                // $(".sub-1").next().addClass("addVal");
+                // $(".sub-1").nextAll().addClass("addVal");
+                // $(".sub-1").nextUntil(".sub-4").addClass("addVal");
+                // $(".sub-4").prev().addClass("addVal");
+                // $(".sub-4").prevAll().addClass("addVal");
+                $(".sub-4").prevUntil().addClass("addVal");
+            })
+        })
+    </script>
+</head>
+<body>
+    <button id="btn1">Click Here</button>
+    <hr>
+
+    <div class="main">
+        <div class="sub-1">
+            <div class="inner-1">
+                <h1>SPARTAN</h1>
+            </div>
+        </div>
+        <div class="sub-2">
+            <h1>SPARTAN</h1>
+        </div>
+        <div class="sub-3">
+            <ul>
+                <li>List 1</li>
+                <li>List 2</li>
+            </ul>
+        </div>
+        <div class="sub-4"></div>
+    </div>
+</body>
+</html>

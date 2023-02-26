@@ -1,0 +1,11 @@
+traversing => move through
+
+traversing => ancestor, descendent and siblings
+
+ancestor => parent(), parents(), and parentUntil()
+
+descendent => children(), find()
+
+siblings => siblings(), next(), nexrAll(), prev(), prevAll(), prevUntil()
+
+filter functions => filter(), first(), last(), eq() and not()
