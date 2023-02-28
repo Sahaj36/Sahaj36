@@ -1,0 +1,13 @@
+body { 
+    background-color:#fafafa;
+}
+img { 
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.imgBox { 
+    width: 300px;
+    height: 300px;
+    border: 1px solid #222;
+}
