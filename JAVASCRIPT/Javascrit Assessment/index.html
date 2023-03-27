@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <form action="#">
+        <div class="main">
+            <h1>Registration Form</h1>
+            <br>
+            <div class="row">
+                <div class="col-1">
+                    <label for="fname">First Name:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your First Name" id="fname" onkeyup="return reg_fname()"><br>
+                    <span id="msg1"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="mname">Middle Name:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your Middle Name" id="mname" onkeyup="return reg_mname()"><br>
+                    <span id="msg2"></span>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="lname">Last Name:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your Last Name" id="lname" onkeyup="return reg_lname()"><br>
+                    <span id="msg3"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Gender">Gender:</label>
+                </div>
+                <div class="col-2">
+                    <input type="radio" name="gen" id="male">Male
+                    <input type="radio" name="gen" id="female">Female
+                    <input type="radio" name="gen" id="other">Other
+                    <br> <span id="msg4"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Address">Address :</label>
+                </div>
+                <div class="col-2">
+                    <textarea name="Address" id="address" cols="21" rows="5" placeholder="Enter Address"
+                        maxlength="100"></textarea><br>
+                    <span id="msg5"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Pincode">Pin Code:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your Pin Code" maxlength="6" id="pincode"><br>
+                    <span id="msg6"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="State">State:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your State" id="state"><br>
+                    <span id="msg7"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Country">Country:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Your Country" id="country"><br>
+                    <span id="msg8"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="DOB">Date of Birth:</label>
+                </div>
+                <div class="col-2">
+                    <input type="date" id="dob"><br>
+                    <span id="msg9"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Mobile">Mobile : </label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Mobile No" id="mobile" onkeyup="return reg_mobile()"><br>
+                    <span id="msg10"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="text">Email:</label>
+                </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Enter Email" id="email" onkeyup="return reg_ex() "><br>
+                    <span id="msg11"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="Password">Password :</label>
+                </div>
+                <div class="col-2">
+                    <input type="password" placeholder="Enter Password" id="pass" onkeyup="return reg_pass()"><br>
+                    <span id="msg12"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <label for="cpassword">Confirm Password :</label>
+                </div>
+                <div class="col-2">
+                    <input type="password" placeholder="Enter Confirm Password" id="cpass"
+                        onkeyup="return reg_cpass()"><br>
+                    <span id="msg13"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <input type="checkbox" onclick="return show_pass()">Show Password
+                </div>
+            </div>
+            <div class="row">
+                <button type="submit" onclick="return form_valid()">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
