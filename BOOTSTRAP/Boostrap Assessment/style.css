@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================ header =================================== */
+header {
+    background-color: orangered;
+}
+.navigation {
+    background-color: orangered;
+}
+.navigation .menu-nav {
+    display: flex !important;
+    justify-content: end;
+    width: 100%;
+}
+form {
+    width: 60%;
+}
+.container a span {
+    font-size: 18px;
+    color: white;
+}
+.container span a {
+    text-decoration: none; 
+}
+/* Slider */
+  .set-color {
+    color: orangered;
+  }
+  .swiper-slide {
+    text-align: center;
+  }
+  /* sing up box */
+  .set_color {
+    background-color: orangered;
+  }
+  .btn_read {
+    background-color: orangered;
+    color: white;
+  }
+  .btn_read:hover {
+    background-color: darkgrey;
+    color: black;
+  }
+  .bg-img {
+    background-image: url(../../images/Dr.strange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
